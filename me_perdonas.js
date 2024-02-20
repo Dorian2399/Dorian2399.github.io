@@ -1,8 +1,8 @@
 let nob = document.getElementById("No")
 
 nob.addEventListener("mousemove", function() {
-    let alto = random(1,10)
-    let ancho = random(1,10)
+    let alto = random(1,5)
+    let ancho = random(1,5)
     console.log(alto, ancho)
     nob.style.gridRow = alto;
     nob.style.gridColumn = ancho;
